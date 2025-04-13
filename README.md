@@ -1,5 +1,6 @@
 # yfinance MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Otman404/finance-mcp-server)](https://smithery.ai/server/@Otman404/finance-mcp-server)
 [Model Context Protocol](https://modelcontextprotocol.io/introduction) server that allows LLMs to get accurate and up-to-date prices and news about stock/cryptocurrencies tickers.
 
 ## Available Tools
@@ -14,6 +15,14 @@
     - `count` (string): Optional - Number of articles to retrieve (default: 5)
 
 ## Installation
+
+### Installing via Smithery
+
+To install yfinance-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Otman404/finance-mcp-server):
+
+```bash
+npx -y @smithery/cli install @Otman404/finance-mcp-server --client claude
+```
 
 ### Using uv
 
