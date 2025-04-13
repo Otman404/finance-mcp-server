@@ -1,0 +1,18 @@
+[project]
+name = "finance-mcp-server"
+version = "0.1.0"
+description = "Finance mcp project - Get up to date prices and news about stocks and cryptocurrencies"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "yfinance>=0.2.55",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+finance-mcp-server = "finance_mcp_server.server:main"
