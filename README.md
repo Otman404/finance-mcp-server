@@ -1,6 +1,6 @@
 # yfinance MCP Server
 
-[![smithery badge](https://smithery.ai/badge/@Otman404/finance-mcp-server)](https://smithery.ai/server/@Otman404/finance-mcp-server)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.Otman404/finance-mcp-server)](https://lightnow.ai/servers/io.github.Otman404/finance-mcp-server)
 [Model Context Protocol](https://modelcontextprotocol.io/introduction) server that allows LLMs to get accurate and up-to-date prices and news about stock/cryptocurrencies tickers.
 
 ## Available Tools
